@@ -14,10 +14,8 @@
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="css/style.min.css" rel="stylesheet">
-	<!-- Your custom image slide (optional) -->
-	<style>
-    .mySlides {display:none;}
-    </style>
+	
+	
 	<!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -339,14 +337,73 @@
                     <div class="col-md-12 mb-3">
 
                         <div class="view overlay z-depth-1-half">
-						
-                           <img class="mySlides" src="https://album.oraa-85.ml/img/photo/2.jpg" style="width:100%">
-						    <img class="mySlides" src="https://album.oraa-85.ml/img/photo/3.jpg" style="width:100%">
-                            <img class="mySlides" src="https://album.oraa-85.ml/img/photo/4.jpg" style="width:100%">
-							<img class="mySlides" src="https://album.oraa-85.ml/img/photo/5.jpg" style="width:100%">
-							<img class="mySlides" src="https://album.oraa-85.ml/img/photo/6.jpg" style="width:100%">
+						 <!--Carousel Wrapper-->
+                        <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+						<!--Slides-->
+                       <div class="carousel-inner" role="listbox">
+					   
+					   <!--First slide-->
+                       <div class="carousel-item active">
+                       <div class="view" style="background-image: url('https://album.oraa-85.ml/img/photo/2.jpg'); background-repeat: no-repeat;">
+	                    <!-- Mask & flexbox options-->
+                        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+						</div>
+                      <!-- Mask & flexbox options-->
+
+                    </div>
+                   </div>
+                 <!--/First slide-->
+				 
+				 <!--Second slide-->
+                       <div class="carousel-item">
+                       <div class="view" style="background-image: url('https://album.oraa-85.ml/img/photo/3.jpg'); background-repeat: no-repeat;">
+	                    <!-- Mask & flexbox options-->
+                        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+						</div>
+                      <!-- Mask & flexbox options-->
+
+                    </div>
+                   </div>
+                 <!--/Second slide-->
+				 
+				 <!--Third slide-->
+                       <div class="carousel-item">
+                       <div class="view" style="background-image: url('https://album.oraa-85.ml/img/photo/4.jpg'); background-repeat: no-repeat;">
+	                    <!-- Mask & flexbox options-->
+                        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+						</div>
+                      <!-- Mask & flexbox options-->
+
+                    </div>
+                   </div>
+                 <!--/Third slide-->
+				 
+                 <!--Fourth slide-->
+                       <div class="carousel-item">
+                       <div class="view" style="background-image: url('https://album.oraa-85.ml/img/photo/5.jpg'); background-repeat: no-repeat;">
+	                    <!-- Mask & flexbox options-->
+                        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+						</div>
+                      <!-- Mask & flexbox options-->
+
+                    </div>
+                   </div>
+                 <!--/Fourth slide-->
+				 
+				 <!--Fifth slide-->
+                       <div class="carousel-item">
+                       <div class="view" style="background-image: url('https://album.oraa-85.ml/img/photo/6.jpg'); background-repeat: no-repeat;">
+	                    <!-- Mask & flexbox options-->
+                        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+						</div>
+                      <!-- Mask & flexbox options-->
+
+                    </div>
+                   </div>
+                 <!--/Fifth slide-->
 							
-                        </div>
+							</div>
+             <!--/.Slides-->
 
                     </div>
                     <!-- Grid column -->
@@ -377,7 +434,7 @@
 					
 									
 						<!-- Main heading -->
-                        <p class="h5 my-4">Only Dead Fish :-)</p>
+                        <p class="h5 my-4"> Dead Fish</p>
             
                         <!-- Main heading -->
                        
@@ -514,24 +571,7 @@
         // Animations initialization
         new WOW().init();
     </script>
-	<!-- custom image slide -->
-    <script type="text/javascript">
-	<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
+	
 
 </body>
 
